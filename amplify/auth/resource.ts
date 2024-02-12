@@ -26,7 +26,7 @@ export const auth = defineAuth({
    * @see https://docs.amplify.aws/gen2/build-a-backend/auth/manage-mfa
    */
   multifactor: {
-    mode: 'required',
+    mode: 'OPTIONAL',
     sms: {
       smsMessage: (code) => `Your verification code is ${code}`,
     },
