@@ -20,7 +20,6 @@ export const auth = defineAuth({
         //clientSecret: secret('LOGINWITHAMAZON_CLIENT_SECRET'),
       }
     },
-  ,
   /**
    * enable multifactor authentication
    * @see https://docs.amplify.aws/gen2/build-a-backend/auth/manage-mfa
@@ -31,7 +30,7 @@ export const auth = defineAuth({
   //    smsMessage: (code) => `Your verification code is ${code}`,
   //  },
  // },
-  userAttributes: {
+  //userAttributes: {
     /** request additional attributes for your app's users */
     // profilePicture: {
     //   mutable: true,
