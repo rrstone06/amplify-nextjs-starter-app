@@ -6,7 +6,7 @@ import React from 'react';
 const HomePage: React.FC = () => {
   return (
     <div style={styles.container}>
-      <img src="./logo.png" alt="Logo" style={styles.logo} />
+      <img src="./favicon.ico" alt="Logo" style={styles.logo} />
       <h1 style={styles.title}>Welcome to My App</h1>
       <p style={styles.subtitle}>Where amazing things happen</p>
     </div>
