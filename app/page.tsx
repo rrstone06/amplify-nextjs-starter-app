@@ -10,11 +10,36 @@ export default function Home() {
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
-
+      <Flex
+    gap="0"
+    direction="row"
+    justifyContent="center"
+    alignItems="center"
+    position="relative"
+    border="1px SOLID rgba(0,0,0,0)"
+    borderRadius="4px"
+    padding="7px 15px 7px 15px"
+    backgroundColor="rgba(191,64,64,1)"
+  >
+    <Text
+      fontFamily="Inter"
+      fontSize="20px"
+      fontWeight="700"
+      color="rgba(255,255,255,1)"
+      lineHeight="30px"
+      textAlign="left"
+      display="block"
+      shrink="0"
+      position="relative"
+      whiteSpace="pre-wrap"
+    >
+      Button
+    </Text>
+  </Flex>
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/logo.png"
+          src="/next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
