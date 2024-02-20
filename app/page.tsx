@@ -3,6 +3,77 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
+    import { Flex, Text } from '@aws-amplify/ui-react';
+import { Icon } from './ui-components';
+export default function Example() {
+  return (
+  <Flex
+    gap="16px"
+    direction="row"
+    width="750px"
+    justifyContent="center"
+    alignItems="center"
+    position="relative"
+    padding="12px 16px 12px 16px"
+    backgroundColor="rgba(214,245,219,1)"
+  >
+    <Icon
+      type="checkmark_circle"
+    />
+    <Flex
+      gap="16px"
+      direction="row"
+      justifyContent="flex-start"
+      alignItems="center"
+      grow="1"
+      shrink="1"
+      basis="0"
+      position="relative"
+    >
+      <Flex
+        gap="0"
+        direction="column"
+        justifyContent="center"
+        alignItems="flex-start"
+        grow="1"
+        shrink="1"
+        basis="0"
+        position="relative"
+      >
+        <Text
+          fontFamily="Inter"
+          fontSize="16px"
+          fontWeight="700"
+          color="rgba(54,94,61,1)"
+          lineHeight="24px"
+          textAlign="left"
+          display="block"
+          shrink="0"
+          position="relative"
+          whiteSpace="pre-wrap"
+        >
+          Success
+        </Text>
+        <Text
+          fontFamily="Inter"
+          fontSize="16px"
+          fontWeight="400"
+          color="rgba(54,94,61,1)"
+          lineHeight="24px"
+          textAlign="left"
+          display="block"
+          shrink="0"
+          alignSelf="stretch"
+          position="relative"
+          whiteSpace="pre-wrap"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+        </Text>
+      </Flex>
+    </Flex>
+  </Flex>
+  )
+}
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -10,32 +81,7 @@ export default function Home() {
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
-      <Flex
-    gap="0"
-    direction="row"
-    justifyContent="center"
-    alignItems="center"
-    position="relative"
-    border="1px SOLID rgba(0,0,0,0)"
-    borderRadius="4px"
-    padding="7px 15px 7px 15px"
-    backgroundColor="rgba(191,64,64,1)"
-  >
-    <Text
-      fontFamily="Inter"
-      fontSize="20px"
-      fontWeight="700"
-      color="rgba(255,255,255,1)"
-      lineHeight="30px"
-      textAlign="left"
-      display="block"
-      shrink="0"
-      position="relative"
-      whiteSpace="pre-wrap"
-    >
-      Button
-    </Text>
-  </Flex>
+
       <div className={styles.center}>
         <Image
           className={styles.logo}
